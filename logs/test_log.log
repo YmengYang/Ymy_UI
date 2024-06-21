@@ -1,0 +1,142 @@
+[2024-06-20 16:12:15,457] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:12:15,621] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:12:23,120] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:17:30,166] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:17:30,319] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:17:38,727] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:19:05,600] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:19:05,732] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:19:16,196] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:20:47,411] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:20:47,536] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:20:58,808] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:22:12,280] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:22:12,440] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:22:22,085] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:22:22,174] apaas_page.py->mv_ele line:33 [INFO] 新建对象~
+[2024-06-20 16:26:49,643] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:26:49,777] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:27:00,006] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:27:00,108] apaas_page.py->mv_ele line:33 [INFO] 新建对象~
+[2024-06-20 16:27:15,909] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:27:16,044] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:27:25,297] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 16:27:25,497] apaas_page.py->mv_ele line:33 [INFO] 新建对象~
+[2024-06-20 16:27:59,968] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 16:28:00,110] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 16:28:09,442] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:25:29,806] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:25:29,947] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:35:23,756] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:35:23,898] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:35:33,840] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:35:59,816] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:35:59,944] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:36:10,115] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:36:58,005] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:36:58,155] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:37:08,301] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:37:40,902] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:37:41,037] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:37:50,785] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:38:52,177] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:38:52,308] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:39:02,722] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:44:31,793] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:44:31,922] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:44:37,781] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 17:44:42,918] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:48:20,596] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:48:20,745] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:48:35,582] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 17:48:40,809] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 17:53:16,873] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:53:17,002] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:53:58,229] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 17:53:58,355] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 17:54:22,923] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 18:58:51,225] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 18:58:51,391] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 18:59:01,305] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 18:59:01,695] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 18:59:06,785] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 19:06:57,562] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 19:06:57,690] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 19:07:08,038] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 19:07:08,390] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 19:10:24,619] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 19:10:24,749] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 19:10:34,878] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 19:10:35,250] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 19:14:06,177] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 19:14:06,308] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 19:14:16,547] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 19:14:16,905] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 19:14:22,047] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 20:32:39,072] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 20:32:39,199] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 20:32:49,211] base_page.py->sy_input line:232 [INFO] 输入：对象01 
+[2024-06-20 20:32:49,562] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 20:32:55,926] test_apaas_login.py->test_apaas_create line:44 [INFO] 进入 apaas 页面~
+[2024-06-20 20:43:01,018] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 20:43:01,165] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 20:43:11,504] base_page.py->sy_input line:232 [INFO] 输入：对象2024-06-20 20:43:03 
+[2024-06-20 20:43:11,915] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 20:43:18,275] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-20 20:45:37,138] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 20:45:37,252] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 20:45:47,520] base_page.py->sy_input line:232 [INFO] 输入：对象20:45:39 
+[2024-06-20 20:45:47,933] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 20:45:54,202] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-20 21:04:51,104] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 21:04:51,233] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 21:04:59,510] base_page.py->sy_input line:232 [INFO] 输入：对象210453 
+[2024-06-20 21:04:59,882] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 21:05:03,254] base_page.py->sy_input line:232 [INFO] 输入：对象210453 
+[2024-06-20 21:05:06,523] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-20 21:23:07,257] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 21:23:07,419] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 21:23:16,635] base_page.py->sy_input line:232 [INFO] 输入：对象212309 
+[2024-06-20 21:23:17,028] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 21:23:36,933] base_page.py->sy_input line:232 [INFO] 输入：对象212309 
+[2024-06-20 21:30:54,309] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-20 21:30:54,437] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-20 21:31:02,900] base_page.py->sy_input line:232 [INFO] 输入：对象213056 
+[2024-06-20 21:31:03,251] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-20 21:31:06,618] base_page.py->sy_input line:232 [INFO] 输入：对象213056 
+[2024-06-20 21:31:09,910] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-21 09:48:49,883] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-21 09:48:50,016] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-21 09:49:03,977] base_page.py->sy_input line:232 [INFO] 输入：对象094852 
+[2024-06-21 09:49:04,406] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-21 09:49:10,298] base_page.py->sy_input line:232 [INFO] 输入：对象094852 
+[2024-06-21 09:49:14,297] base_page.py->sy_input line:232 [INFO] 输入：商品名称 
+[2024-06-21 09:49:17,410] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-21 09:59:13,826] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-21 09:59:13,958] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-21 09:59:25,475] base_page.py->sy_input line:232 [INFO] 输入：对象095916 
+[2024-06-21 09:59:25,820] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-21 09:59:30,156] base_page.py->sy_input line:232 [INFO] 输入：对象095916 
+[2024-06-21 09:59:34,133] base_page.py->sy_input line:232 [INFO] 输入：商品名称 
+[2024-06-21 09:59:37,308] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-21 10:14:14,782] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-21 10:14:14,915] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-21 10:14:25,541] base_page.py->sy_input line:232 [INFO] 输入：对象101417 
+[2024-06-21 10:14:25,967] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-21 10:14:30,404] base_page.py->sy_input line:232 [INFO] 输入：对象101417 
+[2024-06-21 10:14:34,379] base_page.py->sy_input line:232 [INFO] 输入：商品名称 
+[2024-06-21 10:14:38,159] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-21 10:22:10,781] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-21 10:22:10,908] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-21 10:22:24,131] base_page.py->sy_input line:232 [INFO] 输入：对象102212 
+[2024-06-21 10:22:24,471] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-21 10:22:29,360] base_page.py->sy_input line:232 [INFO] 输入：对象102212 
+[2024-06-21 10:22:33,380] base_page.py->sy_input line:232 [INFO] 输入：商品名称 
+[2024-06-21 10:22:37,212] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
+[2024-06-21 10:30:58,022] base_page.py->sy_input line:232 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-21 10:30:58,151] base_page.py->sy_input line:232 [INFO] 输入：1234!qwer 
+[2024-06-21 10:31:06,431] base_page.py->sy_input line:232 [INFO] 输入：对象103100 
+[2024-06-21 10:31:06,799] base_page.py->sy_input line:232 [INFO] 输入：名称 
+[2024-06-21 10:31:10,200] base_page.py->sy_input line:232 [INFO] 输入：对象103100 
+[2024-06-21 10:31:14,173] base_page.py->sy_input line:232 [INFO] 输入：商品名称 
+[2024-06-21 10:31:18,112] test_apaas_login.py->test_apaas_create line:48 [INFO] 进入 apaas 页面~
