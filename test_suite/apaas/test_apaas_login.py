@@ -38,12 +38,20 @@ class TestApaasLogin:
         # 加载 Apaas 页面
         self.ApaasPage.load()
         # 进行 Apaas 登录操作
-
     def test_apaas_create(self):
         self.ApaasPage.apaas_login(Data.apaas_user, Data.apaas_password)
         # 打开 Apaas 页面
         object_name = "对象"+timestamp()
         self.ApaasPage.open_apaas(object_name)
+        self.ApaasPage.create_single_field("单行文本"+timestamp())
+        self.ApaasPage.single_choice("单选" + timestamp())
+        self.ApaasPage.multiple_choice("多选"+timestamp())
+        self.ApaasPage.oolean("布尔值" + timestamp())
+        self.ApaasPage.num("数字" + timestamp())
+        # self.ApaasPage.find_association("查找关联" + timestamp())
+        self.ApaasPage.page_create("自动化页面"+timestamp())
+        self.ApaasPage.list_create("自动化列表" + timestamp())
+        self.ApaasPage.driver.quit()
         # 记录日志信息
         log.info("进入 apaas 页面~")
 
