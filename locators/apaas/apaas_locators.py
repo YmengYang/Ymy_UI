@@ -90,8 +90,13 @@ class ApaasLocators:
     list_create = '//button[@class="el-button el-button--primary el-button--mini"]'
     list_name_loc = '//div[@aria-label="新建列表页"]//input[@placeholder="请输入列表名称"]'
     list_text= '//div[@aria-label="新建列表页"]//textarea[@class="el-textarea__inner"]'
-
-
+    list1 = '//div[@class="column-content column-content-flex"]/div[2]'
+    select_list_field = '//p[contains(text(),"显示字段")]/../ul/div[1]'
+    object_myself_feild = '//p/span[contains(text(),"本对象字段")]'
+    select_field_value = '//p/span[contains(text(),"本对象字段")]/../following-sibling::ul/li[1]'
+    select_area = '//div/span[contains(text(),"筛选区")]/..'
+    select_screen_field = '//p[contains(text(),"显示字段")]/following-sibling::div/div'
+    screen_field_value = '//p/span[contains(text(),"本对象")]/../following-sibling::ul/li[1]'
 
 
 

@@ -1,5 +1,5 @@
-import pytest
-import allure
+# import pytest
+# import allure
 import time
 import pytest
 from pages.apaas.apaas_page import ApaasPage

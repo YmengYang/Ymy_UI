@@ -6,9 +6,9 @@ from locators.apaas.apaas_locators import ApaasLocators as loc
 from environment.data import Data
 from pages.base_page import BasePage
 from utilities.utils import *
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-from selenium. webdriver. common.action_chains import ActionChains
+# from selenium.webdriver.common.by import By
+# from selenium.common.exceptions import NoSuchElementException
+# from selenium. webdriver. common.action_chains import ActionChains
 from utilities.logger import Logger
 log = Logger(__name__).getlog()
 
@@ -144,5 +144,17 @@ class ApaasPage(BasePage):
         self.sy_input(loc.list_text, "gfdsgfdgfsdgkfdgdsgs")
         time.sleep(3)
         self.sy_click(loc.page_next)
+        self.sy_click(loc.list1)
+        self.sy_click(loc.select_list_field)
+        # self.sy_click(loc.object_myself_feild)
+        for _ in range(5):
+            self.sy_click(loc.select_field_value)
+
+        self.sy_click(loc.select_area)
+        self.sy_click(loc.select_screen_field)
+        for _ in range(5):
+            self.sy_click(loc.screen_field_value)
+
+        time.sleep(3)
         self.sy_click(loc.save)
         time.sleep(3)
