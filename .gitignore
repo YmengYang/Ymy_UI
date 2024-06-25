@@ -1,6 +1,6 @@
 venv/*
-.idea/
-.pytest_cache/
+.idea/*
+.pytest_cache/*
 logs/*log*
 resources/import/tmp/*.xlsx
 __pycache__/
