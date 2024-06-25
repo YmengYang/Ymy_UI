@@ -1,0 +1,10 @@
+venv/*
+.idea/
+.pytest_cache/
+logs/*log*
+resources/import/tmp/*.xlsx
+__pycache__/
+*.py[cod]
+.__test_log.lock
+drivers/
+

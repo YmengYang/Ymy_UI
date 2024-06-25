@@ -717,3 +717,30 @@
 [2024-06-25 11:19:44,889] base_page.py->sy_input line:249 [INFO] 输入：自动化列表111943 
 [2024-06-25 11:19:45,115] base_page.py->sy_input line:249 [INFO] 输入：gfdsgfdgfsdgkfdgdsgs 
 [2024-06-25 11:19:52,377] test_apaas_login.py->test_apaas_create line:66 [INFO] 进入 apaas 页面~
+[2024-06-25 11:23:56,153] base_page.py->sy_input line:249 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-25 11:23:56,285] base_page.py->sy_input line:249 [INFO] 输入：1234!qwer 
+[2024-06-25 11:24:04,593] base_page.py->sy_input line:249 [INFO] 输入：对象112358 
+[2024-06-25 11:24:04,982] base_page.py->sy_input line:249 [INFO] 输入：名称 
+[2024-06-25 11:24:08,311] base_page.py->sy_input line:249 [INFO] 输入：对象112358 
+[2024-06-25 11:24:12,426] base_page.py->sy_input line:249 [INFO] 输入：采购商_编辑页112411 
+[2024-06-25 11:24:16,768] base_page.py->sy_input line:249 [INFO] 输入：采购商_新建页112415 
+[2024-06-25 11:24:21,172] base_page.py->sy_input line:249 [INFO] 输入：采购商_详情页112419 
+[2024-06-25 11:24:25,989] base_page.py->sy_input line:249 [INFO] 输入：供应商_编辑页112424 
+[2024-06-25 11:24:30,798] base_page.py->sy_input line:249 [INFO] 输入：供应商_新建页112428 
+[2024-06-25 11:24:34,817] base_page.py->sy_input line:249 [INFO] 输入：供应商_详情页112433 
+[2024-06-25 11:24:39,642] base_page.py->sy_input line:249 [INFO] 输入：需求端_新建页112437 
+[2024-06-25 11:24:43,604] base_page.py->sy_input line:249 [INFO] 输入：需求端_编辑页112442 
+[2024-06-25 11:24:47,569] base_page.py->sy_input line:249 [INFO] 输入：需求端_详情页112446 
+[2024-06-25 11:24:55,451] base_page.py->sy_input line:249 [INFO] 输入：单行文本112454 
+[2024-06-25 11:25:06,164] base_page.py->sy_input line:249 [INFO] 输入：单选112505 
+[2024-06-25 11:25:15,944] base_page.py->sy_input line:249 [INFO] 输入：多选112515 
+[2024-06-25 11:25:25,880] base_page.py->sy_input line:249 [INFO] 输入：布尔值112525 
+[2024-06-25 11:25:35,638] base_page.py->sy_input line:249 [INFO] 输入：数字112535 
+[2024-06-25 11:25:45,923] base_page.py->sy_input line:249 [INFO] 输入：查找关联112544 
+[2024-06-25 11:25:59,222] base_page.py->sy_input line:249 [INFO] 输入：自动化列表112558 
+[2024-06-25 11:25:59,584] base_page.py->sy_input line:249 [INFO] 输入：gfdsgfdgfsdgkfdgdsgs 
+[2024-06-25 11:26:06,948] test_apaas_login.py->test_apaas_create line:66 [INFO] 进入 apaas 页面~
+[2024-06-25 11:27:31,667] base_page.py->sy_input line:249 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-25 11:27:31,816] base_page.py->sy_input line:249 [INFO] 输入：1234!qwer 
+[2024-06-25 11:27:35,706] base_page.py->sy_input line:249 [INFO] 输入：gaokailin.gkl@sunyur.com 
+[2024-06-25 11:27:35,849] base_page.py->sy_input line:249 [INFO] 输入：1234!qwer 
