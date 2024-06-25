@@ -20,7 +20,7 @@ class ApaasLocators:
     apaas_creat = '//div/a[@href="#/paas/tenantlevel/object-create"]'
 
     #配置端页签元素
-
+    field_loc = '//div[@id="tab-field"]'
     page_loc = '//div[@id="tab-page"]'
     list_loc = '//div[@id="tab-list"]'
     button_loc = '//div[@id="button"]'
@@ -57,6 +57,8 @@ class ApaasLocators:
     #查找关联
     find_association = '//div[@role="dialog"][@aria-label="新建字段"]//span[@class="fields-name"][contains(text(),"查找关联")]'
     find_document = '//span[contains(text(),"请选择")]'
+    b = '//div[@class="el-select__selected-item el-select__placeholder is-transparent"]//preceding-sibling::div/span'
+    find = '//body/div[2]/div[6]//span[contains(text(),"对象104408")]'
 
     field_name = '//div[@role="dialog"]//input[@placeholder="请输入字段名称"]'
     create_field = '//div[@class="transition-wrap"]//div[@class="button-gallery-item"]/button'
@@ -74,7 +76,15 @@ class ApaasLocators:
     pc_terminal = '//div[@role="dialog"]//input[@value="PC"]/..'
     h5_terminal = '//div[@role="dialog"]//input[@value="PC"]/..'
     page_next = '//div[@role="dialog"]//button[@class="el-button el-button--primary"]'
+    page_use = '//div[@role="dialog"]//span[contains(text(),"选择应用")]/../following-sibling::div'
+    pur = '//body/div[2]/div[8]//span[contains(text(),"采购用户工作台")]'
+    sup = '//body/div[2]/div[8]//span[contains(text(),"供应商工作台")]'
+    mall = '//body/div[2]/div[8]//span[contains(text(),"需求用户工作台")]'
 
+    page_type = '//div[@role="dialog"]//span[contains(text(),"页面分类")]/../following-sibling::div'
+    edit_page = '//body/div[2]/div[9]//span[contains(text(),"编辑页")]'
+    detail_page = '//body/div[2]/div[9]//span[contains(text(),"详情页")]'
+    new_page = '//body/div[2]/div[9]//span[contains(text(),"新建页")]'
 
     #创建列表页面
     list_create = '//button[@class="el-button el-button--primary el-button--mini"]'

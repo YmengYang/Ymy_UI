@@ -1,12 +1,14 @@
 import time
 import pytest
+from webdriver_manager import driver
+
 from locators.apaas.apaas_locators import ApaasLocators as loc
 from environment.data import Data
 from pages.base_page import BasePage
 from utilities.utils import *
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from selenium. webdriver. common.action_chains import ActionChains
 from utilities.logger import Logger
 log = Logger(__name__).getlog()
 
@@ -43,6 +45,7 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def create_single_field(self, field_name="商品名称"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_input(loc.field_name, field_name)
         self.sy_click(loc.set_formula)
@@ -55,6 +58,7 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def single_choice(self, field_name="商品名称"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_click(loc.single_choice)
         self.sy_input(loc.field_name, field_name)
@@ -65,6 +69,7 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def multiple_choice(self, field_name="商品名称"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_click(loc.multiple_choice)
         self.sy_input(loc.field_name, field_name)
@@ -75,6 +80,7 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def oolean(self, field_name="商品名称"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_click(loc.oolean)
         self.sy_input(loc.field_name, field_name)
@@ -85,6 +91,7 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def num(self, field_name="数字"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_click(loc.num)
         self.sy_input(loc.field_name, field_name)
@@ -96,35 +103,38 @@ class ApaasPage(BasePage):
         time.sleep(3)
 
     def find_association(self, field_name="查找关联"):
+        self.sy_click(loc.field_loc)
         self.sy_click(loc.create_field)
         self.sy_click(loc.find_association)
         self.sy_input(loc.field_name, field_name)
         self.sy_click(loc.find_document)
-        time.sleep(3)
-        input_element = self.driver.find_element(By.XPATH, loc.find_document)
         # time.sleep(3)
-        input_element.send_keys("公司主体OU标准下拉")
+        # self.sy_input1(loc.b, "公司主体OU标准下拉")
         time.sleep(3)
-        try:
-            # 使用XPath或其他定位策略找到包含特定文本的下拉项
-            dropdown_item = self.driver.find_element(By.XPATH,"//span[contains(text(),'公司主体OU标准下拉')]")
-            dropdown_item.click()  # 点击选中该项
-        except NoSuchElementException:
-            # 处理元素未找到异常，可能意味着下拉项不存在或者筛选没有正确工作
-            pytest.fail("Dropdown item with the search text was not found.")
+        self.sy_click(loc.find)
         time.sleep(3)
         self.sy_click(loc.set_page_display)
         time.sleep(3)
         self.sy_click(loc.save_field)
         time.sleep(3)
 
-    def page_create(self, page_name="页面管理"):
+    def page_create(self, page_name="页面管理", page_use='pur',page_type='edit_page'):
         self.sy_click(loc.page_loc)
         self.sy_click(loc.page_create)
         self.sy_input(loc.page_name_loc, page_name)
+        self.sy_click(loc.page_use)
+        time.sleep(1)
+        self.sy_click(page_use)
+
+        self.sy_click(loc.page_type)
+        time.sleep(1)
+        self.sy_click(page_type)
+
         self.sy_click(loc.pc_terminal)
         self.sy_click(loc.page_next)
         self.sy_click(loc.save)
+
+
 
     def list_create(self, list_name="自动化列表"):
         self.sy_click(loc.list_loc)

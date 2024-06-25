@@ -218,6 +218,22 @@ class BasePage:
             pytest.fail("该用例执行失败，因为 %s 页面中未能找到 %s 元素" % (self, loc))
 
     # 重写定义send_keys方法
+    def sy_input1(self, loc, value,):
+        """
+        默认动作：1.点击loc；2.清空loc；3.输入内容value
+        """
+        try:
+
+            self.sy_click(loc)
+            self.sy_find_element(loc).send_keys(value)
+            log.info("输入：%s " % value)
+        except AttributeError:
+            time_str = time.strftime("%Y%m%d-%H%M%S")
+            allure.attach(self.driver.get_screenshot_as_png(), name=f"fail_step_{time_str}",
+                          attachment_type=AttachmentType.PNG)
+            pytest.fail("该用例执行失败，因为 %s 页面中未能找到 %s 元素" % (self, loc))
+
+
     def sy_input(self, loc, value, clear_first=True, click_first=True):
         """
         默认动作：1.点击loc；2.清空loc；3.输入内容value
@@ -236,6 +252,7 @@ class BasePage:
             allure.attach(self.driver.get_screenshot_as_png(), name=f"fail_step_{time_str}",
                           attachment_type=AttachmentType.PNG)
             pytest.fail("该用例执行失败，因为 %s 页面中未能找到 %s 元素" % (self, loc))
+
 
     # 重写定义send_keys方法
     def sy_input_selects(self, loc, value, index, stime=1.5):
@@ -288,7 +305,7 @@ class BasePage:
         默认动作：1.点击loc,选中含有【itemname】的span 索引
         """
         self.sy_click(loc)
-        time.sleep(0.5)
+        time.sleep(1)
         # loc = (By.XPATH, "//span[contains(text(),'%s')]" % itemname)
         self.sy_click_spans(itemname, index)
 
